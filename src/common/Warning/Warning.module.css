@@ -1,0 +1,24 @@
+.Warning{
+    position: fixed;
+    z-index: 999;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    background:rgba(255,255,255,.6);
+}
+.warning-center{
+    position: absolute;
+    z-index: 999;
+    left:0;
+    right:0;
+    margin:0 auto;
+    top:50%;
+    transform: translateY(-50%);
+    background: RGBA(255, 160,122,.7);
+    width:60vw;
+    height:60vw;
+    font:.32rem/60vw "";
+    border-radius: 5vw;
+    text-align: center;
+}

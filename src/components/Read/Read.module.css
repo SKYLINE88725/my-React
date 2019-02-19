@@ -1,0 +1,20 @@
+.read{
+    width: 100%;
+    height: auto;
+}
+
+
+.read-iframe{
+    position: absolute;
+
+    height: 100vh;
+}
+.read .fanhui{
+    font-size:.3rem;
+    color:black;
+    position: fixed;
+    display: block;
+    top:.2rem;
+    left:.2rem;
+    z-index: 99;
+}

@@ -1,0 +1,9 @@
+
+.foot-btn{width:100%;height:0.8rem;padding-top: .1rem; background:#fff; position:fixed; left:0; bottom:0; border-top:1px solid #9e9a95;}
+.foot-btn ul{width:100%; margin:0 auto;
+    display: flex;justify-content: space-around}
+.foot-btn ul li{}
+.foot-btn ul li a{ display:block; width:100%;height:100%;text-align: center;}
+.foot-btn ul li .active{ color:red}
+.foot-btn ul li a .iconfont:before{ display:block;font-size:.4rem;}
+.foot-btn ul li a .iconfont span{font-size:.16rem;}

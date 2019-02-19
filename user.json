@@ -1,0 +1,17 @@
+{
+  "auth":true,
+  "user":[
+    {
+      "userID":100001,
+      "userName":"wangxiaochen725",
+      "passWord":"qq123456"
+    },
+    {
+      "userID":100002,
+      "userName":"123456",
+      "passWord":"123456"
+    }
+  ],
+  "time":10000,
+  "startTime":0
+}

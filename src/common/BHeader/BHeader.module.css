@@ -1,0 +1,82 @@
+.detail-title{
+    line-height: .6rem;
+    font-size:.3rem;
+    position: relative;
+    z-index:99;
+    height:.6rem;
+
+}
+.active{
+    background:#fff;
+}
+.lbtn{
+    float: left;
+    height:.6rem;
+    position: relative;
+    z-index:91;
+}
+.rbtn{
+    float: right;
+    height:.6rem;
+    position: relative;
+    z-index:91;
+}
+.detail-title .sfont{
+    font-size:.3rem;
+    margin:0 .1rem;
+    color:#FA8072;
+}
+.detail-title-s{
+    color:#FFBD33;
+}
+.nav-show{
+    position: absolute;
+    top:.6rem;
+    z-index: 100;
+    background: #fff;
+}
+.detail-nav{
+    width:100vw;
+    display:flex;
+    justify-content: space-around;
+
+}
+.nav-li{
+
+}
+.nav-a{
+   display:block;
+    line-height: .30rem;
+    text-align: center;
+}
+.bfont{
+
+    color:#FA8072;
+}
+.bfont:before{
+    font-size:.24rem;
+    display:block;
+}
+.my-book-shelf{
+    width:100vw;
+    box-sizing: border-box;
+    text-align: center;
+    padding:.1rem;
+
+}
+.my-book-shelf a{
+    display:inline-block;
+    background:#ED424B;
+    border-radius: .3rem;
+    color:#fff;
+    padding:0 .8rem;
+    line-height: .36rem;
+    font-size: .18rem;
+}
+.mask{
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    background: rgba(0,0,0,.6);
+    z-index: 10;
+}

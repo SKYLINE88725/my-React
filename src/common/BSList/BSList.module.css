@@ -1,0 +1,108 @@
+.gray{
+    color:gray;
+    border-color: gray;
+}
+.red{
+    color:red;
+    border-color: red;
+}
+.blue{
+    color:blue;
+    border-color: blue;
+}
+.newlist{
+    padding-bottom: .05rem;
+}
+.book-li{
+    background: #fff;
+    margin:.1rem;
+    border-radius: .1rem;
+}
+ul{
+
+}
+.book-li::after {
+    display: block;
+    margin-top: -1px;
+    margin-left: 1rem;
+    content: '';
+    -webkit-transition: margin-left .15s;
+    transition: margin-left .15s;
+    border-bottom: 1px solid #f0f1f2;
+}
+.book-layout {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: .1rem;
+    -webkit-transition: padding-left .15s;
+    transition: padding-left .15s;
+}
+
+.book-cover {
+    font-size: 0;
+    float: left;
+    width: 1.5rem;
+    height: 2rem;
+    margin-right: .2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+.book-cell {
+    overflow: hidden;
+}
+.book-title {
+    line-height:.26rem;
+    font-size:.22rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.book-desc {
+    font-size: .18rem;
+    line-height: .32rem;
+    height:.4rem;
+    overflow: hidden;
+    margin: .1rem 0;
+    color: #969ba3;
+    display: -webkit-box;
+    height: 1.25rem;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.book-meta {
+    font-size: .18rem;
+    overflow: hidden;
+    line-height: .22rem;
+    height:.22rem;
+}
+.book-meta-l {
+    float: left;
+    height:.22rem;
+}
+.book-author {
+    font-size: .20rem;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #969ba3;
+}
+.book-meta-r {
+    height:.22rem;
+    float: right;
+}
+
+.tag-small-group {
+    height:.22rem;
+}
+.tag-small {
+    height:.22rem;
+    float: left;
+    font-style: normal;
+    font-size:.14rem;
+    line-height: .2rem;
+    box-sizing: border-box;
+    border:1px solid;
+    padding:0 .05rem;
+    margin-left:.05rem;
+}
